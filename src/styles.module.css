@@ -1,0 +1,25 @@
+.inicio {
+    width: 1900px;
+    height: 900px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.albums {
+    border: 2px solid black;
+    margin: 10px;
+    padding-left: 10px;
+}
+.albums:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .1);
+
+}
+.photos {
+    display: inline;
+    padding: 20px 10px;
+    
+}

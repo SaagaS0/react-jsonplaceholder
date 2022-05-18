@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from 'react';
+import { api } from './api';
+import { PostAlbum } from './components/PostAlbum';
+import css from './styles.module.css'
+import { Album } from './types/type'
+import {Home} from './pages/Home'
+import { RouteList } from './RouteList';
+
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+
+    <div className={css.square}>
+      <RouteList />
+
     </div>
   );
 }
